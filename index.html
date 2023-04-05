@@ -1,21 +1,32 @@
 <!DOCTYPE html>
 <html lang="en"><head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<meta charset="utf-8">
-<meta name="generator" content="quarto-0.9.492">
-<title>index</title>
-<meta name="apple-mobile-web-app-capable" content="yes">
-<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
-<link rel="stylesheet" href="index_files/libs/revealjs/dist/reset.css">
-<link rel="stylesheet" href="index_files/libs/revealjs/dist/reveal.css">
-<style>
+<script src="index_files/libs/clipboard/clipboard.min.js"></script>
+<script src="index_files/libs/quarto-html/tabby.min.js"></script>
+<script src="index_files/libs/quarto-html/popper.min.js"></script>
+<script src="index_files/libs/quarto-html/tippy.umd.min.js"></script>
+<link href="index_files/libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="index_files/libs/quarto-html/quarto-html.min.css" rel="stylesheet" data-mode="light">
+<link href="index_files/libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
+  <meta name="generator" content="quarto-1.2.142">
+
+  <title>index</title>
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+  <link rel="stylesheet" href="index_files/libs/revealjs/dist/reset.css">
+  <link rel="stylesheet" href="index_files/libs/revealjs/dist/reveal.css">
+  <style>
     code{white-space: pre-wrap;}
     span.smallcaps{font-variant: small-caps;}
-    span.underline{text-decoration: underline;}
-    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
     div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
     ul.task-list{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
     pre > code.sourceCode { white-space: pre; position: relative; }
     pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
     pre > code.sourceCode > span:empty { height: 1.2em; }
@@ -42,50 +53,51 @@
         -khtml-user-select: none; -moz-user-select: none;
         -ms-user-select: none; user-select: none;
         padding: 0 4px; width: 4em;
-        color: #aaaaaa;
+        color: #767676;
       }
-    pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+    pre.numberSource { margin-left: 3em; border-left: 1px solid #767676;  padding-left: 4px; }
     div.sourceCode
-      {   }
+      { color: #545454; background-color: #fefefe; }
     @media screen {
     pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
     }
-    code span.al { color: #ff0000; font-weight: bold; } /* Alert */
-    code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
-    code span.at { color: #7d9029; } /* Attribute */
-    code span.bn { color: #40a070; } /* BaseN */
+    code span { color: #545454; } /* Normal */
+    code span.al { color: #7928a1; } /* Alert */
+    code span.an { color: #696969; } /* Annotation */
+    code span.at { color: #a55a00; } /* Attribute */
+    code span.bn { color: #7928a1; } /* BaseN */
     code span.bu { } /* BuiltIn */
-    code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
-    code span.ch { color: #4070a0; } /* Char */
-    code span.cn { color: #880000; } /* Constant */
-    code span.co { color: #60a0b0; font-style: italic; } /* Comment */
-    code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
-    code span.do { color: #ba2121; font-style: italic; } /* Documentation */
-    code span.dt { color: #902000; } /* DataType */
-    code span.dv { color: #40a070; } /* DecVal */
-    code span.er { color: #ff0000; font-weight: bold; } /* Error */
+    code span.cf { color: #d91e18; } /* ControlFlow */
+    code span.ch { color: #008000; } /* Char */
+    code span.cn { color: #d91e18; } /* Constant */
+    code span.co { color: #696969; } /* Comment */
+    code span.cv { color: #696969; font-style: italic; } /* CommentVar */
+    code span.do { color: #696969; font-style: italic; } /* Documentation */
+    code span.dt { color: #7928a1; } /* DataType */
+    code span.dv { color: #7928a1; } /* DecVal */
+    code span.er { color: #7928a1; } /* Error */
     code span.ex { } /* Extension */
-    code span.fl { color: #40a070; } /* Float */
+    code span.fl { color: #a55a00; } /* Float */
     code span.fu { color: #06287e; } /* Function */
     code span.im { } /* Import */
-    code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
-    code span.kw { color: #007020; font-weight: bold; } /* Keyword */
-    code span.op { color: #666666; } /* Operator */
-    code span.ot { color: #007020; } /* Other */
-    code span.pp { color: #bc7a00; } /* Preprocessor */
-    code span.sc { color: #4070a0; } /* SpecialChar */
-    code span.ss { color: #bb6688; } /* SpecialString */
-    code span.st { color: #4070a0; } /* String */
-    code span.va { color: #19177c; } /* Variable */
-    code span.vs { color: #4070a0; } /* VerbatimString */
-    code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+    code span.in { color: #696969; } /* Information */
+    code span.kw { color: #d91e18; } /* Keyword */
+    code span.op { color: #00769e; } /* Operator */
+    code span.ot { color: #d91e18; } /* Other */
+    code span.pp { color: #7928a1; } /* Preprocessor */
+    code span.sc { color: #00769e; } /* SpecialChar */
+    code span.ss { color: #008000; } /* SpecialString */
+    code span.st { color: #008000; } /* String */
+    code span.va { color: #a55a00; } /* Variable */
+    code span.vs { color: #008000; } /* VerbatimString */
+    code span.wa { color: #696969; font-style: italic; } /* Warning */
   </style>
-<link rel="stylesheet" href="index_files/libs/revealjs/dist/theme/quarto.css" id="theme">
-<link href="index_files/libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
-<link href="index_files/libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
-<link href="index_files/libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
-<link href="index_files/libs/revealjs/plugin/quarto-support/footer.css" rel="stylesheet">
-<style type="text/css">
+  <link rel="stylesheet" href="index_files/libs/revealjs/dist/theme/quarto.css" id="theme">
+  <link href="index_files/libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
+  <link href="index_files/libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
+  <link href="index_files/libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
+  <link href="index_files/libs/revealjs/plugin/quarto-support/footer.css" rel="stylesheet">
+  <style type="text/css">
 
   .callout {
     margin-top: 1em;
@@ -282,7 +294,7 @@
   }
 
   </style>
-<style type="text/css">
+  <style type="text/css">
     .reveal div.sourceCode {
       margin: 0;
       overflow: auto;
@@ -369,1046 +381,276 @@
       margin-right: 0; 
     }
   </style>
-<meta name="twitter:title" content="Outrageously efficient exploratory data analysis with Apache Arrow and dplyr">
-<meta name="twitter:description" content="A 10 minute lightning talk on all things arrow + dplyr">
-<meta name="twitter:url" content="https://jthomasmock.github.io/arrow-dplyr/#/">
-<meta name="twitter:image" content="https://raw.githubusercontent.com/jthomasmock/arrow-dplyr/master/index-img.png">
-<meta name="twitter:image:alt" content="The title slide of the presentation, with the arrow and dplyr hex logos">
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:creator" content="@thomas_mock">
-<meta name="twitter:site" content="@thomas_mock">
-<meta property="og:title" content="Outrageously efficient exploratory data analysis with Apache Arrow and dplyr">
-<meta property="og:description" content="A 10 minute lightning talk on all things arrow + dplyr">
-<meta property="og:url" content="https://jthomasmock.github.io/arrow-dplyr/#/">
-<meta property="og:image" content="https://raw.githubusercontent.com/jthomasmock/arrow-dplyr/master/index-img.png">
-<meta property="og:image:alt" content="The title slide of the presentation, with the arrow and dplyr hex logos">
-<meta property="og:type" content="website">
-<meta property="og:locale" content="en_US">
-<script src="index_files/libs/clipboard/clipboard.min.js"></script>
-<script src="index_files/libs/quarto-html/tabby.min.js"></script>
-<script src="index_files/libs/quarto-html/popper.min.js"></script>
-<script src="index_files/libs/quarto-html/tippy.umd.min.js"></script>
-<link href="index_files/libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="index_files/libs/quarto-html/quarto-html.min.css" rel="stylesheet">
-<link href="index_files/libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+  <meta name="twitter:title" content="Outrageously efficient exploratory data analysis with Apache Arrow and dplyr">
+  <meta name="twitter:description" content="A 10 minute lightning talk on all things arrow + dplyr">
+  <meta name="twitter:url" content="https://jthomasmock.github.io/arrow-dplyr/#/">
+  <meta name="twitter:image" content="https://raw.githubusercontent.com/jthomasmock/arrow-dplyr/master/index-img.png">
+  <meta name="twitter:image:alt" content="The title slide of the presentation, with the arrow and dplyr hex logos">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:creator" content="@thomas_mock">
+  <meta name="twitter:site" content="@thomas_mock">
+  <meta property="og:title" content="Outrageously efficient exploratory data analysis with Apache Arrow and dplyr">
+  <meta property="og:description" content="A 10 minute lightning talk on all things arrow + dplyr">
+  <meta property="og:url" content="https://jthomasmock.github.io/arrow-dplyr/#/">
+  <meta property="og:image" content="https://raw.githubusercontent.com/jthomasmock/arrow-dplyr/master/index-img.png">
+  <meta property="og:image:alt" content="The title slide of the presentation, with the arrow and dplyr hex logos">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="en_US">
 </head>
-<body>
+<body class="quarto-light">
   <div class="reveal">
     <div class="slides">
 
 
-<section class="slide level2"><h1>
-Outrageously efficient<br>exploratory data analysis
+<section class="slide level2">
+
+<h1>
+<p>Building your first website with Quarto</p>
 </h1>
 <h2>
-with Apache Arrow and <code>dplyr</code>
+<p>Boston useR Lightning Talk</p>
 </h2>
 <hr>
 <h3>
-Tom Mock, Customer Enablement Lead at
+<p>Rachael Dempsey</p>
 </h3>
 <h3>
-2022-06-03
+<p>2023-04-05</p>
 </h3>
 <p><br></p>
 <h3>
-</h3>
-<p><svg aria-hidden="true" role="img" viewbox="0 0 496 512" style="height:1em;width:0.97em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:black;overflow:visible;position:relative;"><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"></path></svg> &nbsp; <a href="https://github.com/jthomasmock/arrow-dplyr">github.com/jthomasmock/arrow-dplyr</a></p>
-<p><img data-src="https://arrow.apache.org/img/offbrand_hex_2.png" class="absolute" style="top: 425px; left: 1100px; width: 300px; "><img data-src="https://raw.githubusercontent.com/rstudio/hex-stickers/master/PNG/dplyr.png" class="absolute" style="top: 680px; left: 1250px; width: 300px; "></p>
-<p><img data-src="https://www.rstudio.com/wp-content/uploads/2018/10/RStudio-Logo-Flat.png" class="absolute" style="top: 360px; left: 965px; height: 65px; "></p>
-</section><section id="arrow" class="slide level2"><h2><code>arrow</code></h2>
+<p><svg aria-hidden="true" role="img" viewbox="0 0 496 512" style="height:1em;width:0.97em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:black;overflow:visible;position:relative;"><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"></path></svg> &nbsp; <a href="https://github.com/RachaelDempsey/quarto-presentation-slides">github.com/RachaelDempsey/quarto-presentation-slides</a></p>
+</h3></section>
+<section id="hello-nice-to-meet-you" class="slide level2">
+<h2>Hello, nice to meet you!</h2>
+<p><br></p>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p><img data-src="images/rachael.jpg"></p>
+</div><div class="column" style="width:50%;">
+<ul>
+<li>I’m Rachael</li>
+<li>Pro Community Lead at Posit - <em>not a data scientist</em> 😉</li>
+<li>Host of the <a href="https://posit.co/data-science-hangout/">Data Science Hangout</a> - <em>every Thursday at 12 ET</em></li>
+<li>Based in Boston (Dorchester)</li>
+<li>A few of my favorite things: live music 🎸, snowboarding 🏂, cats 🐈, yoga 🧘, making pretty cheese boards 🧀</li>
+</ul>
+</div>
+</div>
+</section>
+<section id="but-first-whats-quarto" class="slide level2">
+<h2>But first, what’s <code>quarto</code>?</h2>
 <blockquote>
-<p><code>arrow</code> is software development platform for building high performance applications that process and transport large data sets</p>
+<p><code>quarto</code> is a new open-source scientific and technical publishing system.</p>
 </blockquote>
 <div class="fragment">
 <ul>
-<li>The <code>arrow</code> R package is an interface to data via the <code>arrow</code> backend, and has deep integration with <code>dplyr</code>:
-<ul>
-<li>Ungrouped <code>mutate()</code>, <code><a href="https://rdrr.io/r/stats/filter.html">filter()</a></code>, <code>select()</code> was available in <code>arrow</code> 5.0<br>
-</li>
-<li>
-<code>group_by()</code> + <code>summarize()</code> aggregation was added in <code>arrow</code> 6.0<br>
-</li>
-<li>More complex <code>dplyr</code> operations were added in <code>arrow</code>7.0 and 8.0</li>
+<li>Quarto combines the functionality of <code>R Markdown</code>, <code>bookdown</code>, <code>distill</code>, <code>xaringan</code>, etc. into a single consistent system with “batteries included”</li>
 </ul>
-</li>
-</ul>
-</div>
-<div class="fragment">
-<ul>
-<li>
-<code>arrow</code> data can also be “handed off” to <code>duckdb</code> with <code>to_duckdb()</code> for any <code>dbplyr</code> commands without data conversion. IE no serialization or data copying costs are incurred.</li>
-</ul>
-</div>
-</section><section id="working-with-bigger-data" class="slide level2"><h2>Working with bigger data?</h2>
-<ul>
-<li>Relational databases (IE SQL) are still around and hugely popular but…</li>
-</ul>
-<div class="fragment">
-<ul>
-<li>Data and specifically <em>local</em> files are getting bigger</li>
-</ul>
-</div>
-<div class="fragment">
-<ul>
-<li>Additionally, many Data Warehouses/Data Lakes use flat-file storage (<code>.csv</code>, <code>.parquet</code>, <code>.json</code> etc) - there are query engines in many environments, but you can often end up with large extracts.</li>
-</ul>
-</div>
-<div class="fragment">
-<p>So, how do you work with data extracts that aren’t already in a database, and are bigger than your memory?</p>
-</div>
-</section><section id="pause-for-one-second" class="slide level2"><h2>Pause for one second</h2>
-<p>If it <em>can</em> fit in memory, then try out:</p>
-<ul>
-<li>
-<a href="https://vroom.r-lib.org/"><code>vroom::vroom()</code></a> or <a href="https://rdatatable.gitlab.io/data.table/reference/fread.html"><code>data.table::fread()</code></a> for fast file reads <em>into</em> R
-<ul>
-<li>
-<a href="https://vroom.r-lib.org/reference/vroom.html"><code>vroom(col_select = c(column_name))</code></a> also allows for partial reads (ie specific columns)<br>
-</li>
-<li>
-<code>arrow</code> itself also has crazy fast file reads on many file types</li>
-</ul>
-</li>
-</ul>
-<div class="fragment">
-<ul>
-<li>
-<a href="https://rdatatable.gitlab.io/data.table/index.html"><code>data.table</code></a> or the <code>dplyr</code> front-end to <code>data.table</code> via <a href="https://dtplyr.tidyverse.org/"><code>dtplyr</code></a> for fast and efficient in-memory analysis</li>
-</ul>
-</div>
-<div class="fragment">
-<ul>
-<li>Lastly, the <a href="https://sebkrantz.github.io/collapse/"><code>collapse</code></a> R package for limited capability, but hyper-performant data manipulation</li>
-</ul>
-</div>
-</section><section id="fill-your-quiver-with-arrows" class="slide level2"><h2>Fill your quiver with <code>arrow</code>s</h2>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1"></a><span class="fu">library</span>(arrow)  <span class="co"># interface to arrow</span></span>
-<span id="cb1-2"><a href="#cb1-2"></a><span class="fu">library</span>(dplyr)  <span class="co"># expressive and consistent interface for data analysis</span></span>
-<span id="cb1-3"><a href="#cb1-3"></a><span class="fu">library</span>(tictoc) <span class="co"># timing out computations</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
-<p><span class="fragment" data-fragment-index="1">Using <code>tictoc</code> to <span class="fragment strike" data-fragment-index="2">watch cute dog videos</span></span> <span class="fragment" data-fragment-index="2">time our computations.</span></p>
-<div class="columns fragment" data-fragment-index="1">
-<div class="column" style="width:50%;">
-<p><img data-src="https://media0.giphy.com/media/EOIQA7mySTulzp7PoR/giphy.gif?cid=ecf05e47o0cq51yelvgpewdyud8ya013gejduf351z5233lq&amp;rid=giphy.gif&amp;ct=g" width="600"><img data-src="https://media4.giphy.com/media/DIrGyd84DwA48/giphy.gif?cid=ecf05e47977mxiw5gkfbd23znh0gxgra4kcqxa82c5e0laqs&amp;rid=giphy.gif&amp;ct=g" width="600"></p>
-</div><div class="column" style="width:50%;">
-<p><img data-src="https://media0.giphy.com/media/348lrWhJAUiuhkcePl/giphy.gif?cid=ecf05e476kk82d9kk7u3rub2wec0qpz2c32kxt2504hf1p7v&amp;rid=giphy.gif&amp;ct=g" width="600"><img data-src="https://media4.giphy.com/media/OVz2F93KQzSqQ/giphy.gif?cid=ecf05e476kk82d9kk7u3rub2wec0qpz2c32kxt2504hf1p7v&amp;rid=giphy.gif&amp;ct=g" width="600"></p>
-</div>
-</div>
-</section><section id="on-to-arrow" class="slide level2"><h2>On to <code>arrow</code>
-</h2>
-<p>There are great examples of data analysis on big data (2 billion rows) in the <a href="https://arrow.apache.org/docs/r/articles/dataset.html"><code>arrow</code> docs</a>.</p>
-<div class="fragment">
-<p>For today, I’m going to focus on biggish data but manageable data!</p>
-</div>
-<div class="fragment">
-<hr>
-<p>If we were to use CSVs, this would be about 2.19 GB of data</p>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1"></a>fs<span class="sc">::</span><span class="fu">dir_info</span>(<span class="st">"data-csv"</span>) <span class="sc">|&gt;</span> <span class="fu">summarise</span>(<span class="at">size =</span> <span class="fu">sum</span>(size)) <span class="sc">|&gt;</span> <span class="fu">pull</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-stdout">
-<pre><code>2.19G</code></pre>
-</div>
-</div>
-</div>
-<div class="fragment">
-<p>But because we’re using <code>arrow</code>, we can use more efficient parquet files. This data on disk is about 82% smaller at 388 MB.</p>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb4"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1"></a>fs<span class="sc">::</span><span class="fu">dir_info</span>(<span class="st">"data-parquet"</span>, <span class="at">recurse =</span> <span class="cn">TRUE</span>) <span class="sc">|&gt;</span> <span class="fu">summarise</span>(<span class="at">size =</span> <span class="fu">sum</span>(size)) <span class="sc">|&gt;</span> <span class="fu">pull</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-stdout">
-<pre><code>388M</code></pre>
-</div>
-</div>
-</div>
-<div class="fragment">
-<p>So not <em>THAT</em> big but 372 columns and 1.1 million rows is plenty.</p>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb6"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb6-1"><a href="#cb6-1"></a><span class="fu">tic</span>()</span>
-<span id="cb6-2"><a href="#cb6-2"></a>ds <span class="ot">&lt;-</span> arrow<span class="sc">::</span><span class="fu">open_dataset</span>(<span class="st">"data-parquet"</span>, <span class="at">partitioning =</span> <span class="st">"season"</span>)</span>
-<span id="cb6-3"><a href="#cb6-3"></a></span>
-<span id="cb6-4"><a href="#cb6-4"></a>dims <span class="ot">&lt;-</span> glue<span class="sc">::</span><span class="fu">glue</span>(</span>
-<span id="cb6-5"><a href="#cb6-5"></a>  <span class="st">"{ds |&gt; names() |&gt; length()} cols by "</span>,</span>
-<span id="cb6-6"><a href="#cb6-6"></a>  <span class="st">"{scales::label_number(big.mark = ',')(ds |&gt; count() |&gt; collect() |&gt; pull())} rows"</span></span>
-<span id="cb6-7"><a href="#cb6-7"></a>  )</span>
-<span id="cb6-8"><a href="#cb6-8"></a><span class="fu">toc</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-stdout">
-<pre><code>0.218 sec elapsed</code></pre>
-</div>
-</div>
-<div class="cell">
-<div class="cell-output cell-output-stdout">
-<pre><code>372 cols by 1,098,570 rows</code></pre>
-</div>
-</div>
-</div>
-</section><section id="nflfastr-data" class="slide level2"><h2>
-<code>nflfastR</code> data</h2>
-<p>The data we’re focused on today is big enough (1 million rows by 372 columns, about 2.2 GB uncompressed) and corresponds to <em>every</em> NFL play in <em>every</em> game from 1999 to 2021. The data is all available from the <a href="https://github.com/nflverse/nflfastR-data">{nflverse} Github</a>.</p>
-<div class="fragment">
-<p>To use it efficiently, we’ve partitioned the data up into each season</p>
+<p><br></p>
+<center>
 <div class="columns">
-<div class="column" style="width:50%;">
-<pre><code>data-parquet/
-├── 1999
-│   └── data.parquet
-├── 2000
-│   └── data.parquet
-├── 2001
-│   └── data.parquet
-├── 2002
-│   └── data.parquet
-├── 2003
-│   └── data.parquet
-├── 2004
-│   └── data.parquet
-├── 2005
-│   └── data.parquet
-├── 2006
-│   └── data.parquet
-├── 2007
-│   └── data.parquet
-├── 2008
-│   └── data.parquet
-├── 2009
-│   └── data.parquet
-├── 2010
-│   └── data.parquet
-├── 2011
-│   └── data.parquet
-├── 2012
-│   └── data.parquet
-├── 2013
-│   └── data.parquet
-├── 2014
-│   └── data.parquet</code></pre>
-</div><div class="column" style="width:50%;">
-<pre><code>
-├── 2015
-│   └── data.parquet
-├── 2016
-│   └── data.parquet
-├── 2017
-│   └── data.parquet
-├── 2018
-│   └── data.parquet
-├── 2019
-│   └── data.parquet
-├── 2020
-│   └── data.parquet
-└── 2021
-    └── data.parquet</code></pre>
+<div class="column" style="width:20%;">
+<p><img data-src="images/book.jpg"></p>
+</div><div class="column" style="width:20%;">
+<p><img data-src="images/presentation.jpg"></p>
+</div><div class="column" style="width:20%;">
+<p><img data-src="images/website.jpg"></p>
+</div><div class="column" style="width:20%;">
+<p><img data-src="images/report.jpg"></p>
 </div>
 </div>
-</div>
-</section><section id="nock-the-arrow" class="slide level2"><h2>Nock the <code>arrow</code>
-</h2>
-<p>We can prepare our data to be used with <code><a href="https://arrow.apache.org/docs/r/reference/open_dataset.html">arrow::open_dataset()</a></code></p>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb11"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb11-1"><a href="#cb11-1"></a>ds <span class="ot">&lt;-</span> <span class="fu">open_dataset</span>(<span class="st">"data-parquet"</span>, <span class="at">partitioning =</span> <span class="st">"season"</span>)</span>
-<span id="cb11-2"><a href="#cb11-2"></a></span>
-<span id="cb11-3"><a href="#cb11-3"></a>ds</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-stdout">
-<pre><code>FileSystemDataset with 23 Parquet files
-play_id: double
-game_id: string
-old_game_id: string
-home_team: string
-away_team: string
-season_type: string
-week: int32
-posteam: string
-posteam_type: string
-defteam: string
-side_of_field: string
-yardline_100: double
-game_date: string
-quarter_seconds_remaining: double
-half_seconds_remaining: double
-game_seconds_remaining: double
-game_half: string
-quarter_end: double
-drive: double
-sp: double
-qtr: double
-down: double
-goal_to_go: double
-time: string
-yrdln: string
-ydstogo: double
-ydsnet: double
-desc: string
-play_type: string
-yards_gained: double
-shotgun: double
-no_huddle: double
-qb_dropback: double
-qb_kneel: double
-qb_spike: double
-qb_scramble: double
-pass_length: string
-pass_location: string
-air_yards: double
-yards_after_catch: double
-run_location: string
-run_gap: string
-field_goal_result: string
-kick_distance: double
-extra_point_result: string
-two_point_conv_result: string
-home_timeouts_remaining: double
-away_timeouts_remaining: double
-timeout: double
-timeout_team: string
-td_team: string
-td_player_name: string
-td_player_id: string
-posteam_timeouts_remaining: double
-defteam_timeouts_remaining: double
-total_home_score: double
-total_away_score: double
-posteam_score: double
-defteam_score: double
-score_differential: double
-posteam_score_post: double
-defteam_score_post: double
-score_differential_post: double
-no_score_prob: double
-opp_fg_prob: double
-opp_safety_prob: double
-opp_td_prob: double
-fg_prob: double
-safety_prob: double
-td_prob: double
-extra_point_prob: double
-two_point_conversion_prob: double
-ep: double
-epa: double
-total_home_epa: double
-total_away_epa: double
-total_home_rush_epa: double
-total_away_rush_epa: double
-total_home_pass_epa: double
-total_away_pass_epa: double
-air_epa: double
-yac_epa: double
-comp_air_epa: double
-comp_yac_epa: double
-total_home_comp_air_epa: double
-total_away_comp_air_epa: double
-total_home_comp_yac_epa: double
-total_away_comp_yac_epa: double
-total_home_raw_air_epa: double
-total_away_raw_air_epa: double
-total_home_raw_yac_epa: double
-total_away_raw_yac_epa: double
-wp: double
-def_wp: double
-home_wp: double
-away_wp: double
-wpa: double
-vegas_wpa: double
-vegas_home_wpa: double
-home_wp_post: double
-away_wp_post: double
-vegas_wp: double
-vegas_home_wp: double
-total_home_rush_wpa: double
-total_away_rush_wpa: double
-total_home_pass_wpa: double
-total_away_pass_wpa: double
-air_wpa: double
-yac_wpa: double
-comp_air_wpa: double
-comp_yac_wpa: double
-total_home_comp_air_wpa: double
-total_away_comp_air_wpa: double
-total_home_comp_yac_wpa: double
-total_away_comp_yac_wpa: double
-total_home_raw_air_wpa: double
-total_away_raw_air_wpa: double
-total_home_raw_yac_wpa: double
-total_away_raw_yac_wpa: double
-punt_blocked: double
-first_down_rush: double
-first_down_pass: double
-first_down_penalty: double
-third_down_converted: double
-third_down_failed: double
-fourth_down_converted: double
-fourth_down_failed: double
-incomplete_pass: double
-touchback: double
-interception: double
-punt_inside_twenty: double
-punt_in_endzone: double
-punt_out_of_bounds: double
-punt_downed: double
-punt_fair_catch: double
-kickoff_inside_twenty: double
-kickoff_in_endzone: double
-kickoff_out_of_bounds: double
-kickoff_downed: double
-kickoff_fair_catch: double
-fumble_forced: double
-fumble_not_forced: double
-fumble_out_of_bounds: double
-solo_tackle: double
-safety: double
-penalty: double
-tackled_for_loss: double
-fumble_lost: double
-own_kickoff_recovery: double
-own_kickoff_recovery_td: double
-qb_hit: double
-rush_attempt: double
-pass_attempt: double
-sack: double
-touchdown: double
-pass_touchdown: double
-rush_touchdown: double
-return_touchdown: double
-extra_point_attempt: double
-two_point_attempt: double
-field_goal_attempt: double
-kickoff_attempt: double
-punt_attempt: double
-fumble: double
-complete_pass: double
-assist_tackle: double
-lateral_reception: double
-lateral_rush: double
-lateral_return: double
-lateral_recovery: double
-passer_player_id: string
-passer_player_name: string
-passing_yards: double
-receiver_player_id: string
-receiver_player_name: string
-receiving_yards: double
-rusher_player_id: string
-rusher_player_name: string
-rushing_yards: double
-lateral_receiver_player_id: string
-lateral_receiver_player_name: string
-lateral_receiving_yards: double
-lateral_rusher_player_id: string
-lateral_rusher_player_name: string
-lateral_rushing_yards: double
-lateral_sack_player_id: string
-lateral_sack_player_name: string
-interception_player_id: string
-interception_player_name: string
-lateral_interception_player_id: string
-lateral_interception_player_name: string
-punt_returner_player_id: string
-punt_returner_player_name: string
-lateral_punt_returner_player_id: string
-lateral_punt_returner_player_name: string
-kickoff_returner_player_name: string
-kickoff_returner_player_id: string
-lateral_kickoff_returner_player_id: string
-lateral_kickoff_returner_player_name: string
-punter_player_id: string
-punter_player_name: string
-kicker_player_name: string
-kicker_player_id: string
-own_kickoff_recovery_player_id: string
-own_kickoff_recovery_player_name: string
-blocked_player_id: string
-blocked_player_name: string
-tackle_for_loss_1_player_id: string
-tackle_for_loss_1_player_name: string
-tackle_for_loss_2_player_id: string
-tackle_for_loss_2_player_name: string
-qb_hit_1_player_id: string
-qb_hit_1_player_name: string
-qb_hit_2_player_id: string
-qb_hit_2_player_name: string
-forced_fumble_player_1_team: string
-forced_fumble_player_1_player_id: string
-forced_fumble_player_1_player_name: string
-forced_fumble_player_2_team: string
-forced_fumble_player_2_player_id: string
-forced_fumble_player_2_player_name: string
-solo_tackle_1_team: string
-solo_tackle_2_team: string
-solo_tackle_1_player_id: string
-solo_tackle_2_player_id: string
-solo_tackle_1_player_name: string
-solo_tackle_2_player_name: string
-assist_tackle_1_player_id: string
-assist_tackle_1_player_name: string
-assist_tackle_1_team: string
-assist_tackle_2_player_id: string
-assist_tackle_2_player_name: string
-assist_tackle_2_team: string
-assist_tackle_3_player_id: string
-assist_tackle_3_player_name: string
-assist_tackle_3_team: string
-assist_tackle_4_player_id: string
-assist_tackle_4_player_name: string
-assist_tackle_4_team: string
-tackle_with_assist: double
-tackle_with_assist_1_player_id: string
-tackle_with_assist_1_player_name: string
-tackle_with_assist_1_team: string
-tackle_with_assist_2_player_id: string
-tackle_with_assist_2_player_name: string
-tackle_with_assist_2_team: string
-pass_defense_1_player_id: string
-pass_defense_1_player_name: string
-pass_defense_2_player_id: string
-pass_defense_2_player_name: string
-fumbled_1_team: string
-fumbled_1_player_id: string
-fumbled_1_player_name: string
-fumbled_2_player_id: string
-fumbled_2_player_name: string
-fumbled_2_team: string
-fumble_recovery_1_team: string
-fumble_recovery_1_yards: double
-fumble_recovery_1_player_id: string
-fumble_recovery_1_player_name: string
-fumble_recovery_2_team: string
-fumble_recovery_2_yards: double
-fumble_recovery_2_player_id: string
-fumble_recovery_2_player_name: string
-sack_player_id: string
-sack_player_name: string
-half_sack_1_player_id: string
-half_sack_1_player_name: string
-half_sack_2_player_id: string
-half_sack_2_player_name: string
-return_team: string
-return_yards: double
-penalty_team: string
-penalty_player_id: string
-penalty_player_name: string
-penalty_yards: double
-replay_or_challenge: double
-replay_or_challenge_result: string
-penalty_type: string
-defensive_two_point_attempt: double
-defensive_two_point_conv: double
-defensive_extra_point_attempt: double
-defensive_extra_point_conv: double
-safety_player_name: string
-safety_player_id: string
-season: int32
-cp: double
-cpoe: double
-series: double
-series_success: double
-series_result: string
-order_sequence: double
-start_time: string
-time_of_day: string
-stadium: string
-weather: string
-nfl_api_id: string
-play_clock: string
-play_deleted: double
-play_type_nfl: string
-special_teams_play: double
-st_play_type: string
-end_clock_time: string
-end_yard_line: string
-fixed_drive: double
-fixed_drive_result: string
-drive_real_start_time: string
-drive_play_count: double
-drive_time_of_possession: string
-drive_first_downs: double
-drive_inside20: double
-drive_ended_with_score: double
-drive_quarter_start: double
-drive_quarter_end: double
-drive_yards_penalized: double
-drive_start_transition: string
-drive_end_transition: string
-drive_game_clock_start: string
-drive_game_clock_end: string
-drive_start_yard_line: string
-drive_end_yard_line: string
-drive_play_id_started: double
-drive_play_id_ended: double
-away_score: int32
-home_score: int32
-location: string
-result: int32
-total: int32
-spread_line: double
-total_line: double
-div_game: int32
-roof: string
-surface: string
-temp: int32
-wind: int32
-home_coach: string
-away_coach: string
-stadium_id: string
-game_stadium: string
-aborted_play: double
-success: double
-passer: string
-passer_jersey_number: int32
-rusher: string
-rusher_jersey_number: int32
-receiver: string
-receiver_jersey_number: int32
-pass: double
-rush: double
-first_down: double
-special: double
-play: double
-passer_id: string
-rusher_id: string
-receiver_id: string
-name: string
-jersey_number: int32
-id: string
-fantasy_player_name: string
-fantasy_player_id: string
-fantasy: string
-fantasy_id: string
-out_of_bounds: double
-home_opening_kickoff: double
-qb_epa: double
-xyac_epa: double
-xyac_mean_yardage: double
-xyac_median_yardage: double
-xyac_success: double
-xyac_fd: double
-xpass: double
-pass_oe: double</code></pre>
-</div>
-</div>
-</section><section id="pull-the-arrow-back-with-dplyr" class="slide level2"><h2>Pull the <code>arrow</code> back with <code>dplyr</code>
-</h2>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb13" data-code-line-numbers="|8"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb13-1"><a href="#cb13-1"></a>summarize_df <span class="ot">&lt;-</span> ds <span class="sc">|&gt;</span> </span>
-<span id="cb13-2"><a href="#cb13-2"></a>  <span class="fu">filter</span>(season <span class="sc">==</span> <span class="dv">2021</span>, play_type <span class="sc">%in%</span> <span class="fu">c</span>(<span class="st">"pass"</span>, <span class="st">"run"</span>)) <span class="sc">|&gt;</span> </span>
-<span id="cb13-3"><a href="#cb13-3"></a>  <span class="fu">filter</span>(<span class="sc">!</span><span class="fu">is.na</span>(epa)) <span class="sc">|&gt;</span> </span>
-<span id="cb13-4"><a href="#cb13-4"></a>  <span class="fu">select</span>(posteam, epa) <span class="sc">|&gt;</span> </span>
-<span id="cb13-5"><a href="#cb13-5"></a>  <span class="fu">group_by</span>(posteam) <span class="sc">|&gt;</span> </span>
-<span id="cb13-6"><a href="#cb13-6"></a>  <span class="fu">summarize</span>(<span class="at">n =</span> <span class="fu">n</span>(), <span class="at">avg_epa =</span> <span class="fu">mean</span>(epa))</span>
-<span id="cb13-7"><a href="#cb13-7"></a></span>
-<span id="cb13-8"><a href="#cb13-8"></a><span class="fu">print</span>(summarize_df)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-stdout">
-<pre><code>FileSystemDataset (query)
-posteam: string
-n: int32
-avg_epa: double
-
-See $.data for the source Arrow object</code></pre>
-</div>
-</div>
-<div class="fragment">
-<p>Note that while the computation has occurred, we really haven’t “seen it” yet. Printing just reports back the 3x columns and their type.</p>
-</div>
-</section><section id="release-the-arrow-into-memory-with-collect" class="slide level2"><h2>Release the <code>arrow</code> into memory with <code>collect()</code>
-</h2>
-<p>We can execute the <code>collect()</code> function to <em>finally</em> pull the output into memory and display the result.</p>
-<div class="fragment">
-<div class="cell">
-<div class="sourceCode cell-code" id="cb15" data-code-line-numbers="|2"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb15-1"><a href="#cb15-1"></a>summarize_df <span class="sc">|&gt;</span> </span>
-<span id="cb15-2"><a href="#cb15-2"></a>  <span class="fu">collect</span>() <span class="sc">|&gt;</span> </span>
-<span id="cb15-3"><a href="#cb15-3"></a>  <span class="fu">arrange</span>(<span class="fu">desc</span>(avg_epa))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-stdout">
-<pre><code># A tibble: 32 × 3
-   posteam     n avg_epa
-   &lt;chr&gt;   &lt;int&gt;   &lt;dbl&gt;
- 1 KC       1321  0.152 
- 2 BUF      1240  0.144 
- 3 GB       1105  0.120 
- 4 TB       1263  0.116 
- 5 LAC      1123  0.0945
- 6 DAL      1212  0.0824
- 7 NE       1097  0.0686
- 8 PHI      1130  0.0605
- 9 SF       1196  0.0588
-10 LA       1309  0.0586
-# … with 22 more rows</code></pre>
-</div>
-</div>
-</div>
-</section><section id="release-the-arrow-into-memory-with-collect-1" class="slide level2"><h2>Release the <code>arrow</code> into memory with <code>collect()</code>
-</h2>
-<p>Once it’s pulled into memory, it’s like any other in-memory object!</p>
-<div class="fragment">
-<div class="cell" data-layout-align="center" data-fig.dim="[8,3]">
-<div class="sourceCode cell-code" id="cb17"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb17-1"><a href="#cb17-1"></a><span class="fu">library</span>(ggplot2)</span>
-<span id="cb17-2"><a href="#cb17-2"></a><span class="fu">collect</span>(summarize_df) <span class="sc">|&gt;</span> </span>
-<span id="cb17-3"><a href="#cb17-3"></a>  <span class="fu">ggplot</span>(<span class="fu">aes</span>(<span class="at">x =</span> forcats<span class="sc">::</span><span class="fu">fct_reorder</span>(posteam, <span class="fu">desc</span>(avg_epa)), <span class="at">y =</span> avg_epa)) <span class="sc">+</span></span>
-<span id="cb17-4"><a href="#cb17-4"></a>  <span class="fu">theme_minimal</span>() <span class="sc">+</span> <span class="fu">geom_hline</span>(<span class="at">yintercept =</span> <span class="dv">0</span>, <span class="at">color =</span> <span class="st">"black"</span>) <span class="sc">+</span></span>
-<span id="cb17-5"><a href="#cb17-5"></a>  <span class="fu">geom_col</span>(<span class="fu">aes</span>(<span class="at">color =</span> posteam, <span class="at">fill =</span> posteam), <span class="at">width =</span> <span class="fl">0.75</span>) <span class="sc">+</span></span>
-<span id="cb17-6"><a href="#cb17-6"></a>  nflplotR<span class="sc">::</span><span class="fu">scale_fill_nfl</span>(<span class="at">alpha =</span> <span class="fl">0.75</span>, <span class="at">aesthetics =</span> <span class="fu">c</span>(<span class="st">"color"</span>, <span class="st">"fill"</span>)) <span class="sc">+</span></span>
-<span id="cb17-7"><a href="#cb17-7"></a>  <span class="fu">guides</span>(<span class="at">color =</span> <span class="st">"none"</span>, <span class="at">fill =</span> <span class="st">"none"</span>) <span class="sc">+</span></span>
-<span id="cb17-8"><a href="#cb17-8"></a>  <span class="fu">theme</span>(<span class="at">axis.text.x =</span> nflplotR<span class="sc">::</span><span class="fu">element_nfl_logo</span>()) <span class="sc">+</span></span>
-<span id="cb17-9"><a href="#cb17-9"></a>  <span class="fu">labs</span>(<span class="at">x =</span> <span class="st">""</span>, <span class="at">y =</span> <span class="st">"Average Expected Points Added"</span>, <span class="at">title =</span> <span class="st">"2021 Offensive Expected Points Added"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output-display">
-<div class="quarto-figure quarto-figure-center">
-<figure><p><img data-src="index_files/figure-revealjs/unnamed-chunk-8-1.png" width="4000"></p>
-</figure>
-</div>
-</div>
-</div>
-</div>
-</section><section id="bigger-and-faster" class="slide level2"><h2>Bigger and faster</h2>
-<p>We can operate across all the rows extremely quickly!</p>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb18"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb18-1"><a href="#cb18-1"></a><span class="fu">tic</span>()</span>
-<span id="cb18-2"><a href="#cb18-2"></a>all_comp <span class="ot">&lt;-</span> ds <span class="sc">|&gt;</span> </span>
-<span id="cb18-3"><a href="#cb18-3"></a>  <span class="fu">filter</span>(<span class="sc">!</span><span class="fu">is.na</span>(epa)) <span class="sc">|&gt;</span> </span>
-<span id="cb18-4"><a href="#cb18-4"></a>  <span class="fu">group_by</span>(posteam, play_type) <span class="sc">|&gt;</span> </span>
-<span id="cb18-5"><a href="#cb18-5"></a>  <span class="fu">summarize</span>(</span>
-<span id="cb18-6"><a href="#cb18-6"></a>    <span class="at">n =</span> <span class="fu">n</span>(), </span>
-<span id="cb18-7"><a href="#cb18-7"></a>    <span class="at">avg_epa =</span> <span class="fu">mean</span>(epa),</span>
-<span id="cb18-8"><a href="#cb18-8"></a>    <span class="at">.groups =</span> <span class="st">"drop"</span></span>
-<span id="cb18-9"><a href="#cb18-9"></a>    ) <span class="sc">|&gt;</span> </span>
-<span id="cb18-10"><a href="#cb18-10"></a>  <span class="fu">collect</span>() <span class="sc">|&gt;</span> </span>
-<span id="cb18-11"><a href="#cb18-11"></a>  <span class="fu">mutate</span>(<span class="at">total =</span> scales<span class="sc">::</span><span class="fu">label_number</span>(<span class="at">big.mark =</span> <span class="st">","</span>)(<span class="fu">sum</span>(n)))</span>
-<span id="cb18-12"><a href="#cb18-12"></a><span class="fu">toc</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-stdout">
-<pre><code>0.147 sec elapsed</code></pre>
-</div>
-</div>
-<div class="cell">
-<div class="cell-output cell-output-stdout">
-<pre><code># A tibble: 325 × 5
-   posteam play_type       n  avg_epa total    
-   &lt;chr&gt;   &lt;chr&gt;       &lt;int&gt;    &lt;dbl&gt; &lt;chr&gt;    
- 1 WAS     kickoff      1898  0.235   1,080,552
- 2 WAS     run         10093 -0.0591  1,080,552
- 3 WAS     pass        13474 -0.0231  1,080,552
- 4 WAS     field_goal    722 -0.172   1,080,552
- 5 ARI     kickoff      1961  0.195   1,080,552
- 6 ARI     pass        14413 -0.0565  1,080,552
- 7 ARI     run          9181 -0.103   1,080,552
- 8 ARI     field_goal    688 -0.0544  1,080,552
- 9 ARI     extra_point   795  0.00767 1,080,552
-10 WAS     &lt;NA&gt;          458 -0.0308  1,080,552
-# … with 315 more rows</code></pre>
-</div>
-</div>
-</section><section id="better-exploratory-data-analysis" class="slide level2"><h2>Better exploratory data analysis</h2>
-<p>While <code>arrow</code> + <code>dplyr</code> can be combined for extremely efficient and fast data analysis, having to <code>collect()</code> into memory when the results may be very large is not ideal.</p>
-<div class="fragment">
-<p>Enter the <a href="https://arrow.apache.org/docs/r/reference/to_duckdb.html"><code>arrow::to_duckdb()</code> function</a>! This is essentially a zero-cost operation that will treat the on-disk data in place as a <a href="https://duckdb.org/"><code>duckdb</code> database</a>!</p>
-</div>
-<div class="fragment">
-<div class="cell">
-<div class="sourceCode cell-code" id="cb21"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb21-1"><a href="#cb21-1"></a><span class="fu">tic</span>()</span>
-<span id="cb21-2"><a href="#cb21-2"></a>duck_out <span class="ot">&lt;-</span> ds <span class="sc">|&gt;</span> </span>
-<span id="cb21-3"><a href="#cb21-3"></a>  <span class="fu">select</span>(posteam, play_type, season, defteam, epa) <span class="sc">|&gt;</span> </span>
-<span id="cb21-4"><a href="#cb21-4"></a>  <span class="fu">filter</span>(<span class="sc">!</span><span class="fu">is.na</span>(epa)) <span class="sc">|&gt;</span> </span>
-<span id="cb21-5"><a href="#cb21-5"></a>  <span class="fu">to_duckdb</span>() <span class="sc">|&gt;</span> </span>
-<span id="cb21-6"><a href="#cb21-6"></a>  <span class="fu">filter</span>(epa <span class="sc">&gt;=</span> <span class="dv">0</span>) </span>
-<span id="cb21-7"><a href="#cb21-7"></a><span class="fu">toc</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-stdout">
-<pre><code>0.271 sec elapsed</code></pre>
-</div>
-</div>
-<div class="cell">
-<div class="cell-output cell-output-stdout">
-<pre><code># Source:   lazy query [?? x 5]
-# Database: duckdb_connection
-   posteam play_type   season defteam    epa
-   &lt;chr&gt;   &lt;chr&gt;        &lt;int&gt; &lt;chr&gt;    &lt;dbl&gt;
- 1 PHI     kickoff       1999 ARI     0.127 
- 2 PHI     pass          1999 ARI     0.213 
- 3 PHI     punt          1999 ARI     1.03  
- 4 ARI     punt          1999 PHI     0.0682
- 5 PHI     run           1999 ARI     0.361 
- 6 PHI     pass          1999 ARI     1.00  
- 7 PHI     pass          1999 ARI     0.0267
- 8 PHI     pass          1999 ARI     0.930 
- 9 PHI     run           1999 ARI     3.15  
-10 PHI     extra_point   1999 ARI     0.0306
-# … with more rows</code></pre>
-</div>
-</div>
-</div>
-</section><section id="more-arrows-for-more-duckdbs" class="slide level2"><h2>More <code>arrow</code>s for more <code>duckdb</code>s</h2>
-<div class="columns">
-<div class="column" style="width:45%;">
-<div class="cell">
-<div class="sourceCode cell-code" id="cb24"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb24-1"><a href="#cb24-1"></a>ds <span class="sc">|&gt;</span> </span>
-<span id="cb24-2"><a href="#cb24-2"></a>  <span class="fu">select</span>(posteam, play_type, season, epa) <span class="sc">|&gt;</span> </span>
-<span id="cb24-3"><a href="#cb24-3"></a>  <span class="fu">filter</span>(</span>
-<span id="cb24-4"><a href="#cb24-4"></a>    <span class="sc">!</span><span class="fu">is.na</span>(epa), </span>
-<span id="cb24-5"><a href="#cb24-5"></a>    play_type <span class="sc">%in%</span> <span class="fu">c</span>(<span class="st">"run"</span>, <span class="st">"pass"</span>)) <span class="sc">|&gt;</span> </span>
-<span id="cb24-6"><a href="#cb24-6"></a>  <span class="fu">to_duckdb</span>() <span class="sc">|&gt;</span> </span>
-<span id="cb24-7"><a href="#cb24-7"></a>  <span class="fu">filter</span>(epa <span class="sc">&gt;=</span> <span class="dv">0</span>) </span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-stdout">
-<pre><code># Source:   lazy query [?? x 4]
-# Database: duckdb_connection
-   posteam play_type season    epa
-   &lt;chr&gt;   &lt;chr&gt;      &lt;int&gt;  &lt;dbl&gt;
- 1 PHI     pass        1999 0.213 
- 2 PHI     run         1999 0.361 
- 3 PHI     pass        1999 1.00  
- 4 PHI     pass        1999 0.0267
- 5 PHI     pass        1999 0.930 
- 6 PHI     run         1999 3.15  
- 7 PHI     run         1999 0.702 
- 8 ARI     pass        1999 1.72  
- 9 PHI     run         1999 1.69  
-10 PHI     pass        1999 1.14  
-# … with more rows</code></pre>
-</div>
-</div>
-<p><code>lazy query [?? x 4]</code> indicates a <code>dbplyr</code> connection, prints 10 rows and the remaining dataset hasn’t been pulled into memory yet!</p>
-</div><div class="column" style="width:45%;">
-
-</div>
-</div>
-</section><section id="more-arrows-for-more-duckdbs-1" class="slide level2"><h2>More <code>arrow</code>s for more <code>duckdb</code>s</h2>
-<div class="columns">
-<div class="column" style="width:45%;">
-<div class="cell">
-<div class="sourceCode cell-code" id="cb26"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb26-1"><a href="#cb26-1"></a>ds <span class="sc">|&gt;</span> </span>
-<span id="cb26-2"><a href="#cb26-2"></a>  <span class="fu">select</span>(posteam, play_type, season, epa) <span class="sc">|&gt;</span> </span>
-<span id="cb26-3"><a href="#cb26-3"></a>  <span class="fu">filter</span>(</span>
-<span id="cb26-4"><a href="#cb26-4"></a>    <span class="sc">!</span><span class="fu">is.na</span>(epa), </span>
-<span id="cb26-5"><a href="#cb26-5"></a>    play_type <span class="sc">%in%</span> <span class="fu">c</span>(<span class="st">"run"</span>, <span class="st">"pass"</span>)) <span class="sc">|&gt;</span> </span>
-<span id="cb26-6"><a href="#cb26-6"></a>  <span class="fu">to_duckdb</span>() <span class="sc">|&gt;</span> </span>
-<span id="cb26-7"><a href="#cb26-7"></a>  <span class="fu">filter</span>(epa <span class="sc">&gt;=</span> <span class="dv">0</span>) </span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-stdout">
-<pre><code># Source:   lazy query [?? x 4]
-# Database: duckdb_connection
-   posteam play_type season    epa
-   &lt;chr&gt;   &lt;chr&gt;      &lt;int&gt;  &lt;dbl&gt;
- 1 PHI     pass        1999 0.213 
- 2 PHI     run         1999 0.361 
- 3 PHI     pass        1999 1.00  
- 4 PHI     pass        1999 0.0267
- 5 PHI     pass        1999 0.930 
- 6 PHI     run         1999 3.15  
- 7 PHI     run         1999 0.702 
- 8 ARI     pass        1999 1.72  
- 9 PHI     run         1999 1.69  
-10 PHI     pass        1999 1.14  
-# … with more rows</code></pre>
-</div>
-</div>
-<p><code>lazy query [?? x 4]</code> indicates a <code>dbplyr</code> connection, prints 10 rows and the remaining dataset hasn’t been pulled into memory yet!</p>
-</div><div class="column" style="width:45%;">
-<div class="cell">
-<div class="sourceCode cell-code" id="cb28" data-code-line-numbers="|9|10"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb28-1"><a href="#cb28-1"></a>ds <span class="sc">|&gt;</span> </span>
-<span id="cb28-2"><a href="#cb28-2"></a>  <span class="fu">select</span>(posteam, play_type, season, epa) <span class="sc">|&gt;</span> </span>
-<span id="cb28-3"><a href="#cb28-3"></a>  <span class="fu">filter</span>(<span class="sc">!</span><span class="fu">is.na</span>(epa)) <span class="sc">|&gt;</span> </span>
-<span id="cb28-4"><a href="#cb28-4"></a>  <span class="fu">to_duckdb</span>() <span class="sc">|&gt;</span> </span>
-<span id="cb28-5"><a href="#cb28-5"></a>  <span class="fu">filter</span>(</span>
-<span id="cb28-6"><a href="#cb28-6"></a>    epa <span class="sc">&gt;=</span> <span class="dv">0</span>, </span>
-<span id="cb28-7"><a href="#cb28-7"></a>    play_type <span class="sc">%in%</span> <span class="fu">c</span>(<span class="st">"run"</span>, <span class="st">"pass"</span>)</span>
-<span id="cb28-8"><a href="#cb28-8"></a>    ) <span class="sc">|&gt;</span> </span>
-<span id="cb28-9"><a href="#cb28-9"></a>  <span class="fu">arrange</span>(<span class="fu">desc</span>(epa)) <span class="sc">|&gt;</span> </span>
-<span id="cb28-10"><a href="#cb28-10"></a>  <span class="fu">print</span>(<span class="at">n =</span> <span class="dv">22</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-stdout">
-<pre><code># Source:     lazy query [?? x 4]
-# Database:   duckdb_connection
-# Ordered by: desc(epa)
-   posteam play_type season   epa
-   &lt;chr&gt;   &lt;chr&gt;      &lt;int&gt; &lt;dbl&gt;
- 1 BAL     pass        2000  9.13
- 2 PIT     pass        2003  8.93
- 3 NYG     run         2005  8.81
- 4 PIT     pass        2017  8.79
- 5 LV      pass        2017  8.70
- 6 ARI     pass        2013  8.67
- 7 BUF     pass        2008  8.64
- 8 MIN     pass        2004  8.59
- 9 PHI     pass        2005  8.54
-10 PIT     pass        2001  8.51
-11 DET     pass        2010  8.41
-12 DEN     pass        2020  8.40
-13 NYG     pass        2011  8.31
-14 CAR     pass        2016  8.26
-15 LAC     pass        2019  8.24
-16 JAX     pass        2012  8.24
-17 CAR     pass        2010  8.23
-18 ATL     pass        2003  8.22
-19 NYG     pass        2010  8.21
-20 LAC     pass        2012  8.21
-21 BUF     pass        2009  8.20
-22 GB      pass        2002  8.18
-# … with more rows</code></pre>
-</div>
-</div>
-<p>We can easily print more!</p>
-</div>
-</div>
-</section><section id="rapid-fire-question---answer" class="slide level2"><h2>Rapid fire question -&gt; answer</h2>
-<p>Just like with <code>dplyr</code> in memory, you can write and answer queries almost as fast as you can think them up!</p>
-<div class="fragment">
-<div class="cell">
-<div class="sourceCode cell-code" id="cb30"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb30-1"><a href="#cb30-1"></a><span class="fu">tic</span>()</span>
-<span id="cb30-2"><a href="#cb30-2"></a>ds <span class="sc">|&gt;</span> </span>
-<span id="cb30-3"><a href="#cb30-3"></a>  <span class="fu">select</span>(posteam, play_type, season, defteam, epa) <span class="sc">|&gt;</span> </span>
-<span id="cb30-4"><a href="#cb30-4"></a>  <span class="fu">filter</span>(<span class="sc">!</span><span class="fu">is.na</span>(epa)) <span class="sc">|&gt;</span> </span>
-<span id="cb30-5"><a href="#cb30-5"></a>  <span class="fu">to_duckdb</span>() <span class="sc">|&gt;</span> </span>
-<span id="cb30-6"><a href="#cb30-6"></a>  <span class="fu">filter</span>(epa <span class="sc">&gt;=</span> <span class="dv">5</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-stdout">
-<pre><code># Source:   lazy query [?? x 5]
-# Database: duckdb_connection
-   posteam play_type season defteam   epa
-   &lt;chr&gt;   &lt;chr&gt;      &lt;int&gt; &lt;chr&gt;   &lt;dbl&gt;
- 1 NO      pass        1999 CAR      5.74
- 2 TEN     pass        1999 CIN      5.38
- 3 DAL     pass        1999 WAS      7.31
- 4 DET     punt        1999 SEA      6.60
- 5 DET     pass        1999 SEA      5.93
- 6 KC      pass        1999 CHI      7.45
- 7 DEN     pass        1999 MIA      6.33
- 8 NE      pass        1999 NYJ      6.31
- 9 NYJ     pass        1999 NE       5.14
-10 LV      pass        1999 GB       5.15
-# … with more rows</code></pre>
-</div>
-<div class="sourceCode cell-code" id="cb32"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb32-1"><a href="#cb32-1"></a><span class="fu">toc</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-stdout">
-<pre><code>0.113 sec elapsed</code></pre>
-</div>
-</div>
-</div>
-</section><section id="duckdb-adds-more-options" class="slide level2"><h2>
-<code>duckdb</code> adds more options</h2>
-<p>Note that it <em>also</em> opens up additional functions via <code>dbplyr</code> that may not be added yet into <code>arrow</code>’s conversion layer.</p>
-<div class="columns">
-<div class="column" style="width:45%;">
-<div class="cell">
-<div class="sourceCode cell-code" id="cb34"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb34-1"><a href="#cb34-1"></a>ds <span class="sc">|&gt;</span> </span>
-<span id="cb34-2"><a href="#cb34-2"></a>  <span class="fu">select</span>(posteam, play_type, epa) <span class="sc">|&gt;</span></span>
-<span id="cb34-3"><a href="#cb34-3"></a>  <span class="fu">mutate</span>(<span class="at">total_n =</span> <span class="fu">n</span>()) <span class="sc">|&gt;</span> </span>
-<span id="cb34-4"><a href="#cb34-4"></a>  <span class="fu">group_by</span>(posteam) <span class="sc">|&gt;</span> </span>
-<span id="cb34-5"><a href="#cb34-5"></a>  <span class="fu">summarize</span>(<span class="at">n =</span> <span class="fu">n</span>(), <span class="at">total =</span> <span class="fu">min</span>(total_n))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-error">
-<pre><code>Error: window functions not currently supported in Arrow
-Call collect() first to pull data into R.</code></pre>
-</div>
-</div>
-</div>
-</div>
-</section><section id="duckdb-adds-more-options-1" class="slide level2"><h2>
-<code>duckdb</code> adds more options</h2>
-<p>Note that it <em>also</em> opens up additional functions via <code>dbplyr</code> that may not be added yet into <code>arrow</code>’s conversion layer.</p>
-<div class="columns">
-<div class="column" style="width:45%;">
-<div class="cell">
-<div class="sourceCode cell-code" id="cb36"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb36-1"><a href="#cb36-1"></a>ds <span class="sc">|&gt;</span> </span>
-<span id="cb36-2"><a href="#cb36-2"></a>  <span class="fu">select</span>(posteam, play_type, epa) <span class="sc">|&gt;</span></span>
-<span id="cb36-3"><a href="#cb36-3"></a>  <span class="fu">mutate</span>(<span class="at">total_n =</span> <span class="fu">n</span>()) <span class="sc">|&gt;</span> </span>
-<span id="cb36-4"><a href="#cb36-4"></a>  <span class="fu">group_by</span>(posteam) <span class="sc">|&gt;</span> </span>
-<span id="cb36-5"><a href="#cb36-5"></a>  <span class="fu">summarize</span>(<span class="at">n =</span> <span class="fu">n</span>(), <span class="at">total =</span> <span class="fu">min</span>(total_n))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-error">
-<pre><code>Error: window functions not currently supported in Arrow
-Call collect() first to pull data into R.</code></pre>
-</div>
-</div>
-</div><div class="column" style="width:45%;">
-<div class="cell">
-<div class="sourceCode cell-code" id="cb38" data-code-line-numbers="|3"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb38-1"><a href="#cb38-1"></a>ds <span class="sc">|&gt;</span> </span>
-<span id="cb38-2"><a href="#cb38-2"></a>  <span class="fu">select</span>(posteam, play_type, epa) <span class="sc">|&gt;</span></span>
-<span id="cb38-3"><a href="#cb38-3"></a>  <span class="fu">to_duckdb</span>() <span class="sc">|&gt;</span> </span>
-<span id="cb38-4"><a href="#cb38-4"></a>  <span class="fu">mutate</span>(<span class="at">total_n =</span> <span class="fu">n</span>()) <span class="sc">|&gt;</span> </span>
-<span id="cb38-5"><a href="#cb38-5"></a>  <span class="fu">group_by</span>(posteam) <span class="sc">|&gt;</span> </span>
-<span id="cb38-6"><a href="#cb38-6"></a>  <span class="fu">summarize</span>(<span class="at">n =</span> <span class="fu">n</span>(), <span class="at">total =</span> <span class="fu">min</span>(total_n))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-stdout">
-<pre><code># Source:   lazy query [?? x 3]
-# Database: duckdb_connection
-   posteam     n   total
-   &lt;chr&gt;   &lt;dbl&gt;   &lt;dbl&gt;
- 1 &lt;NA&gt;    74782 1098570
- 2 ARI     31599 1098570
- 3 LA      32518 1098570
- 4 ATL     31800 1098570
- 5 SF      31609 1098570
- 6 CLE     30074 1098570
- 7 BAL     33702 1098570
- 8 NYJ     31222 1098570
- 9 CIN     31799 1098570
-10 DAL     31762 1098570
-# … with more rows</code></pre>
-</div>
-</div>
-</div>
-</div>
-</section><section id="all-together-now" class="slide level2"><h2>All together now</h2>
-<p><code>dplyr</code>, <code>arrow</code>, and <code>duckdb</code> form a powerful trifecta for efficiently and effectively exploring large datasets.</p>
-<div class="fragment">
-<p>Once you have explored and want to bring it into memory, it’s also fast!</p>
-</div>
-<div class="fragment">
-<div class="cell">
-<div class="sourceCode cell-code" id="cb40"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb40-1"><a href="#cb40-1"></a>read_arrow <span class="ot">&lt;-</span> <span class="cf">function</span>(){</span>
-<span id="cb40-2"><a href="#cb40-2"></a>  <span class="fu">dim</span>(df <span class="ot">&lt;-</span> arrow<span class="sc">::</span><span class="fu">open_dataset</span>(<span class="st">"data-parquet"</span>, <span class="at">partitioning =</span> <span class="st">"season"</span>) <span class="sc">|&gt;</span> <span class="fu">filter</span>(season <span class="sc">==</span> <span class="dv">2021</span>) <span class="sc">|&gt;</span> <span class="fu">collect</span>())</span>
-<span id="cb40-3"><a href="#cb40-3"></a>} </span>
-<span id="cb40-4"><a href="#cb40-4"></a>read_dt <span class="ot">&lt;-</span> <span class="cf">function</span>() <span class="fu">dim</span>(df_dt <span class="ot">&lt;-</span> data.table<span class="sc">::</span><span class="fu">fread</span>(<span class="st">"data-csv/2021.csv"</span>))</span>
-<span id="cb40-5"><a href="#cb40-5"></a>read_vroom <span class="ot">&lt;-</span> <span class="cf">function</span>() <span class="fu">dim</span>(dfv <span class="ot">&lt;-</span> vroom<span class="sc">::</span><span class="fu">vroom</span>(<span class="st">"data-csv/2021.csv"</span>))</span>
-<span id="cb40-6"><a href="#cb40-6"></a>read_csv_arrow <span class="ot">&lt;-</span> <span class="cf">function</span>() <span class="fu">dim</span>(dfc <span class="ot">&lt;-</span> arrow<span class="sc">::</span><span class="fu">read_csv_arrow</span>(<span class="st">"data-csv/2021.csv"</span>))</span>
-<span id="cb40-7"><a href="#cb40-7"></a>read_csv_readr <span class="ot">&lt;-</span> <span class="cf">function</span>() <span class="fu">dim</span>(dfc <span class="ot">&lt;-</span> readr<span class="sc">::</span><span class="fu">read_csv</span>(<span class="st">"data-csv/2021.csv"</span>, <span class="at">lazy =</span> <span class="cn">FALSE</span>))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
-</div>
-<div class="fragment">
-<div class="cell" data-hash="index_cache/revealjs/unnamed-chunk-21_2aab7a8fdd4cf8c099a5b120a07d31ff">
-<div class="sourceCode cell-code" id="cb41"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb41-1"><a href="#cb41-1"></a><span class="fu">tibble</span>(<span class="at">dim =</span> <span class="fu">c</span>(<span class="st">"rows"</span>, <span class="st">"cols"</span>), <span class="at">arrow =</span> <span class="fu">read_arrow</span>(), <span class="at">dt =</span> <span class="fu">read_dt</span>(), <span class="at">vroom =</span> <span class="fu">read_vroom</span>(), <span class="at">arrow_csv =</span> <span class="fu">read_csv_arrow</span>(), <span class="at">readr =</span> <span class="fu">read_csv_readr</span>())</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-stdout">
-<pre><code># A tibble: 2 × 6
-  dim   arrow    dt vroom arrow_csv readr
-  &lt;chr&gt; &lt;int&gt; &lt;int&gt; &lt;int&gt;     &lt;int&gt; &lt;int&gt;
-1 rows  50712 50712 50712     50712 50712
-2 cols    372   372   372       372   372</code></pre>
-</div>
-</div>
-</div>
-</section><section id="we-can-benchmark" class="slide level2"><h2>We can <code>bench::mark()</code>
-</h2>
-<div class="cell">
-
-</div>
-<p>All are pretty fast!</p>
-<div class="cell" data-hash="index_cache/revealjs/unnamed-chunk-23_8d799a2f88bb5c69dfcb0b66094b66c7">
-<div class="sourceCode cell-code" id="cb43"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb43-1"><a href="#cb43-1"></a>bench<span class="sc">::</span><span class="fu">mark</span>(</span>
-<span id="cb43-2"><a href="#cb43-2"></a>  <span class="fu">read_arrow</span>(),     <span class="co"># arrow::open_dataset()</span></span>
-<span id="cb43-3"><a href="#cb43-3"></a>  <span class="fu">read_dt</span>(),        <span class="co"># data.table::fread()</span></span>
-<span id="cb43-4"><a href="#cb43-4"></a>  <span class="fu">read_vroom</span>(),     <span class="co"># vroom::vroom()</span></span>
-<span id="cb43-5"><a href="#cb43-5"></a>  <span class="fu">read_csv_arrow</span>(), <span class="co"># arrow::read_arrow_csv()</span></span>
-<span id="cb43-6"><a href="#cb43-6"></a>  <span class="fu">read_csv_readr</span>(), <span class="co"># readr::read_csv()</span></span>
-<span id="cb43-7"><a href="#cb43-7"></a>  <span class="at">min_time =</span> <span class="fl">0.1</span>, <span class="at">iterations =</span> <span class="dv">10</span></span>
-<span id="cb43-8"><a href="#cb43-8"></a>) <span class="sc">|&gt;</span> </span>
-<span id="cb43-9"><a href="#cb43-9"></a>  <span class="fu">arrange</span>(median)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-stdout">
-<pre><code># A tibble: 5 × 6
-  expression            min   median `itr/sec` mem_alloc `gc/sec`
-  &lt;bch:expr&gt;       &lt;bch:tm&gt; &lt;bch:tm&gt;     &lt;dbl&gt; &lt;bch:byt&gt;    &lt;dbl&gt;
-1 read_arrow()     148.59ms  162.6ms     5.96    687.5KB    7.75 
-2 read_vroom()     214.14ms 235.99ms     4.13     12.9MB    0.825
-3 read_csv_arrow() 290.76ms 327.34ms     2.69     31.6MB    1.08 
-4 read_dt()        788.61ms 840.14ms     1.15    254.4MB    3.23 
-5 read_csv_readr()    1.39s    1.43s     0.699   138.9MB    1.33 </code></pre>
-</div>
-</div>
-<div class="fragment">
-<p>But again - the beauty of <code>arrow</code> is not just that it’s fast!</p>
-</div>
-<div class="fragment">
-<p>It’s fast at exploring the data <em>BEFORE</em> even having to wait for long reads OR having to get a workstation with enough memory to read it all in and compute on it!</p>
-</div>
-<div class="fragment">
-<p>So go out and use <code>arrow</code> + <code>dplyr</code> with <code>duckdb</code> for outrageously efficient exploratory data analysis!</p>
-</div>
-</section><section id="section" class="slide level2" data-background-image="howard.jpg" data-background-size="contain"><h2></h2>
-
-<img src="https://www.rstudio.com/wp-content/uploads/2018/10/RStudio-Logo-Flat.png" class="slide-logo r-stretch"><div class="footer footer-default">
-<p><a href="https://jthomasmock.github.io/arrow-dplyr">https://jthomasmock.github.io/arrow-dplyr</a></p>
+</center>
 </div>
 </section>
+<section id="whats-so-exciting-about-quarto" class="slide level2">
+<h2>What’s so exciting about Quarto?</h2>
+<p><br></p>
+
+<img data-src="images/jj-hangout.jpg" width="600" class="r-stretch"><div class="fragment">
+<p>“Quarto is really <strong>powerful and flexible</strong>, and easy to use for a certain subset of users who are very technical and very motivated, but we actually want to make Quarto available more broadly. So working on <strong>tooling that lets both technical and non technical people collaborate</strong> over documents, and also lets some less technical people participate in using Quarto.” | <a href="https://youtu.be/mqOva6Y0xFo">Data Science Hangout recording</a></p>
 </div>
+</section>
+<section id="section" class="slide level2" data-background-image="images/lightning.jpg">
+<h2></h2>
+</section>
+<section id="slide5-id" class="slide level2" data-menu-title="Twitter Post">
+<h2></h2>
+<center>
+<img data-src="images/twitter.jpg">
+</center>
+</section>
+<section id="have-any-tips-for-building-a-community" class="slide level2">
+<h2>“Have any tips for building a community?”</h2>
+<p>-some 3+ people 😊</p>
+
+<img data-src="images/community-site.jpg" class="r-stretch"></section>
+<section id="make-things-easy-easier-for-yourself" class="slide level2">
+<h2>Make things <del>easy</del> easier for yourself</h2>
+<ul>
+<li>Start with something off the <a href="https://quarto.org/docs/gallery/#websites">Quarto gallery</a> or another Quarto site you’ve seen and admire!</li>
+</ul>
+<p><br></p>
+<center>
+<img data-src="images/quarto-gallery.jpg">
+</center>
+</section>
+<section id="fork-their-repo-and-adjust-from-there" class="slide level2">
+<h2>Fork their <svg aria-hidden="true" role="img" viewbox="0 0 496 512" style="height:1em;width:0.97em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:black;overflow:visible;position:relative;"><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"></path></svg> repo and adjust from there!</h2>
+<p><br></p>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p><img data-src="images/openscapes.jpg"></p>
+</div><div class="column" style="width:50%;">
+<ul>
+<li>Thank you to Julia Stewart Lowndes and Stefanie Butland who created the Openscapes <a href="https://github.com/openscapes/quarto-website-tutorial">Quarto Website Tutorial</a> that provided the framework for my site.</li>
+<li>A template might not fit your exact needs, but for your first site it gives you a great starting point to learn</li>
+</ul>
+</div>
+</div>
+</section>
+<section id="what-i-wanted-to-create" class="slide level2">
+<h2>What I wanted to create:</h2>
+<h3 id="a-section-of-the-site-that-references-a-bunch-of-other-resources">A section of the site that references a bunch of other resources</h3>
+<p><br></p>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p><img data-src="images/listings.jpg"></p>
+</div><div class="column" style="width:50%;">
+<p><img data-src="images/twitter-quarto.jpg"></p>
+<p><br></p>
+<p>I learned that this is called a listing page - specifically listings from data</p>
+<ul>
+<li><a href="https://hamel.dev/notes/quarto/listings-from-data.html">Hamel Husain documents this here</a></li>
+</ul>
+</div>
+</div>
+</section>
+<section id="listings-from-data-blogs-apps-webinars-websites-etc." class="slide level2">
+<h2>Listings from data (blogs, apps, webinars, websites, etc.)</h2>
+<p><br></p>
+<p>Listings enable you to automatically generate the contents of a page (or region of a page) from a list of Quarto documents or other custom data.</p>
+<p><br></p>
+<p>For my site this was:</p>
+<ul>
+<li><strong>resources.qmd</strong> <em>(my listing page)</em></li>
+<li><strong>resources folder</strong> with the following:
+<ul>
+<li>metadata.yml file <em>(where I included the contents of everything for the listing page above)</em></li>
+<li>images folder <em>(for the blog, webinar, website preview images)</em></li>
+</ul></li>
+</ul>
+</section>
+<section id="resources.qmd" class="slide level2">
+<h2>resources.qmd</h2>
+<p><br></p>
+
+<img data-src="images/resources.jpg" class="r-stretch"><p><br></p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode numberSource {code-fold} number-lines code-with-copy"><code class="sourceCode"><span id="cb1-1"><a href="#cb1-1"></a>---</span>
+<span id="cb1-2"><a href="#cb1-2"></a>title: "Community Examples &amp; Resources"</span>
+<span id="cb1-3"><a href="#cb1-3"></a>listing:</span>
+<span id="cb1-4"><a href="#cb1-4"></a>  id: community-listing</span>
+<span id="cb1-5"><a href="#cb1-5"></a>  contents:</span>
+<span id="cb1-6"><a href="#cb1-6"></a>    - "metadata.yml"</span>
+<span id="cb1-7"><a href="#cb1-7"></a>  type: grid</span>
+<span id="cb1-8"><a href="#cb1-8"></a>  fields: [date, title, categories, author, subtitle, image]</span>
+<span id="cb1-9"><a href="#cb1-9"></a>  categories: true</span>
+<span id="cb1-10"><a href="#cb1-10"></a>  sort: "date desc"</span>
+<span id="cb1-11"><a href="#cb1-11"></a>  image-height: 100%</span>
+<span id="cb1-12"><a href="#cb1-12"></a>page-layout: full</span>
+<span id="cb1-13"><a href="#cb1-13"></a>title-block-banner-color: "white"</span>
+<span id="cb1-14"><a href="#cb1-14"></a>title-block-style: plain</span>
+<span id="cb1-15"><a href="#cb1-15"></a>---</span>
+<span id="cb1-16"><a href="#cb1-16"></a></span>
+<span id="cb1-17"><a href="#cb1-17"></a>Learn from others building and growing communities all around the world:</span>
+<span id="cb1-18"><a href="#cb1-18"></a></span>
+<span id="cb1-19"><a href="#cb1-19"></a>::: {#community-listing}</span>
+<span id="cb1-20"><a href="#cb1-20"></a>:::</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</section>
+<section id="metadata.yml-in-a-separate-resources-folder" class="slide level2">
+<h2>metadata.yml in a separate resources folder</h2>
+<p><br></p>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p><img data-src="images/resources.jpg"></p>
+</div><div class="column" style="width:50%;">
+<p><img data-src="images/metadata.jpg"></p>
+</div>
+</div>
+<p><br></p>
+<div class="sourceCode" id="cb2"><pre class="sourceCode numberSource {code-fold} number-lines code-with-copy"><code class="sourceCode"><span id="cb2-1"><a href="#cb2-1"></a>- title: "Achieving scalability through standardization &amp; showing the value of community"</span>
+<span id="cb2-2"><a href="#cb2-2"></a>  categories: </span>
+<span id="cb2-3"><a href="#cb2-3"></a>    - "Data Science Hangout"</span>
+<span id="cb2-4"><a href="#cb2-4"></a>  subtitle: "Regeneron"</span>
+<span id="cb2-5"><a href="#cb2-5"></a>  author: "Regis James"</span>
+<span id="cb2-6"><a href="#cb2-6"></a>  image: ./resources/images/regis.jpg</span>
+<span id="cb2-7"><a href="#cb2-7"></a>  path: https://youtu.be/bnRdI6jvGpM/</span>
+<span id="cb2-8"><a href="#cb2-8"></a>    </span>
+<span id="cb2-9"><a href="#cb2-9"></a>- title: "There’s only one R in Pfizer: Attempts to harmonise R release across a large pharma organisation"</span>
+<span id="cb2-10"><a href="#cb2-10"></a>  subtitle: "Pfizer"</span>
+<span id="cb2-11"><a href="#cb2-11"></a>  author: "Mike Smith"</span>
+<span id="cb2-12"><a href="#cb2-12"></a>  categories: </span>
+<span id="cb2-13"><a href="#cb2-13"></a>    - "Conference talk"</span>
+<span id="cb2-14"><a href="#cb2-14"></a>  image: ./resources/images/r-in-pharma.jpg</span>
+<span id="cb2-15"><a href="#cb2-15"></a>  path: https://youtu.be/bnRdI6jvGpM/</span>
+<span id="cb2-16"><a href="#cb2-16"></a>    </span>
+<span id="cb2-17"><a href="#cb2-17"></a>- title: "R at AstraZeneca: upskilling our workforce through education, experience, and exposure"</span>
+<span id="cb2-18"><a href="#cb2-18"></a>  subtitle: "AstraZeneca"</span>
+<span id="cb2-19"><a href="#cb2-19"></a>  author: "Gabriella Rustici &amp; Guillaume Desachy"</span>
+<span id="cb2-20"><a href="#cb2-20"></a>  categories:</span>
+<span id="cb2-21"><a href="#cb2-21"></a>    - "Meetup"</span>
+<span id="cb2-22"><a href="#cb2-22"></a>  image: ./resources/images/az-meetup.jpg</span>
+<span id="cb2-23"><a href="#cb2-23"></a>  path: https://www.youtube.com/live/YfTIwi-KOts?feature=share</span>
+<span id="cb2-24"><a href="#cb2-24"></a>  </span>
+<span id="cb2-25"><a href="#cb2-25"></a>- title: "R User Group Community Explorer"</span>
+<span id="cb2-26"><a href="#cb2-26"></a>  subtitle: </span>
+<span id="cb2-27"><a href="#cb2-27"></a>  author: "Ben Ubah"</span>
+<span id="cb2-28"><a href="#cb2-28"></a>  categories:</span>
+<span id="cb2-29"><a href="#cb2-29"></a>    - "App"</span>
+<span id="cb2-30"><a href="#cb2-30"></a>  image: ./resources/images/app.jpg</span>
+<span id="cb2-31"><a href="#cb2-31"></a>  path: https://benubah.github.io/r-community-explorer/rugs.html</span>
+<span id="cb2-32"><a href="#cb2-32"></a>  </span>
+<span id="cb2-33"><a href="#cb2-33"></a>- title: "Everything I learned about community building from growing up in a bar"</span>
+<span id="cb2-34"><a href="#cb2-34"></a>  subtitle: "Posit"</span>
+<span id="cb2-35"><a href="#cb2-35"></a>  author: "Rachael Dempsey"</span>
+<span id="cb2-36"><a href="#cb2-36"></a>  categories:</span>
+<span id="cb2-37"><a href="#cb2-37"></a>    - "Blog post"</span>
+<span id="cb2-38"><a href="#cb2-38"></a>  image: ./resources/images/rachael-talk.jpg</span>
+<span id="cb2-39"><a href="#cb2-39"></a>  path: https://rachaeldempsey.quarto.pub/community-corner-blog/posts/post-with-code/</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</section>
+<section id="end-result" class="slide level2">
+<h2>End result 🎉</h2>
+<p><br></p>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><a href="https://colorado.posit.co/rsc/ds-community-builder/"><img data-src="images/listings.jpg"></a></p>
+</figure>
+</div>
+<p><img src="https://swag.rstudio.com/uploads/1/3/1/3/131335021/s815253891256106552_p62_i1_w901.png" class="slide-logo"></p>
+<div class="footer footer-default">
+
+</div>
+</section>
+    </div>
   </div>
 
-  <script>window.backupDefine = window.define; window.define = undefined;</script><script src="index_files/libs/revealjs/dist/reveal.js"></script><!-- reveal.js plugins --><script src="index_files/libs/revealjs/plugin/quarto-line-highlight/line-highlight.js"></script><script src="index_files/libs/revealjs/plugin/pdf-export/pdfexport.js"></script><script src="index_files/libs/revealjs/plugin/reveal-menu/menu.js"></script><script src="index_files/libs/revealjs/plugin/reveal-menu/quarto-menu.js"></script><script src="index_files/libs/revealjs/plugin/quarto-support/support.js"></script><script src="index_files/libs/revealjs/plugin/notes/notes.js"></script><script src="index_files/libs/revealjs/plugin/search/search.js"></script><script src="index_files/libs/revealjs/plugin/zoom/zoom.js"></script><script src="index_files/libs/revealjs/plugin/math/math.js"></script><script>window.define = window.backupDefine; window.backupDefine = undefined;</script><script>
+  <script>window.backupDefine = window.define; window.define = undefined;</script>
+  <script src="index_files/libs/revealjs/dist/reveal.js"></script>
+  <!-- reveal.js plugins -->
+  <script src="index_files/libs/revealjs/plugin/quarto-line-highlight/line-highlight.js"></script>
+  <script src="index_files/libs/revealjs/plugin/pdf-export/pdfexport.js"></script>
+  <script src="index_files/libs/revealjs/plugin/reveal-menu/menu.js"></script>
+  <script src="index_files/libs/revealjs/plugin/reveal-menu/quarto-menu.js"></script>
+  <script src="index_files/libs/revealjs/plugin/quarto-support/support.js"></script>
+  
+
+  <script src="index_files/libs/revealjs/plugin/notes/notes.js"></script>
+  <script src="index_files/libs/revealjs/plugin/search/search.js"></script>
+  <script src="index_files/libs/revealjs/plugin/zoom/zoom.js"></script>
+  <script src="index_files/libs/revealjs/plugin/math/math.js"></script>
+  <script>window.define = window.backupDefine; window.backupDefine = undefined;</script>
+
+  <script>
 
       // Full list of configuration options available at:
       // https://revealjs.com/config/
@@ -1546,10 +788,10 @@ Call collect() first to pull data into R.</code></pre>
         previewLinks: false,
 
         // Transition style (none/fade/slide/convex/concave/zoom)
-        transition: 'none',
+        transition: 'slide',
 
         // Transition speed (default/fast/slow)
-        transitionSpeed: 'default',
+        transitionSpeed: 'fast',
 
         // Transition style for full page slide backgrounds
         // (none/fade/slide/convex/concave/zoom)
@@ -1599,7 +841,9 @@ Call collect() first to pull data into R.</code></pre>
           RevealZoom
         ]
       });
-    </script><script>
+    </script>
+    
+    <script>
       // htmlwidgets need to know to resize themselves when slides are shown/hidden.
       // Fire the "slideenter" event (handled by htmlwidgets.js) when the current
       // slide changes (different for each slide format).
@@ -1638,8 +882,28 @@ Call collect() first to pull data into R.</code></pre>
         }
 
       })();
-    </script><script id="quarto-html-after-body" type="application/javascript">
+    </script>
+
+    <script id="quarto-html-after-body" type="application/javascript">
     window.document.addEventListener("DOMContentLoaded", function (event) {
+      const toggleBodyColorMode = (bsSheetEl) => {
+        const mode = bsSheetEl.getAttribute("data-mode");
+        const bodyEl = window.document.querySelector("body");
+        if (mode === "dark") {
+          bodyEl.classList.add("quarto-dark");
+          bodyEl.classList.remove("quarto-light");
+        } else {
+          bodyEl.classList.add("quarto-light");
+          bodyEl.classList.remove("quarto-dark");
+        }
+      }
+      const toggleBodyColorPrimary = () => {
+        const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+        if (bsSheetEl) {
+          toggleBodyColorMode(bsSheetEl);
+        }
+      }
+      toggleBodyColorPrimary();  
       const tabsets =  window.document.querySelectorAll(".panel-tabset-tabby")
       tabsets.forEach(function(tabset) {
         const tabby = new Tabby('#' + tabset.id);
@@ -1688,7 +952,8 @@ Call collect() first to pull data into R.</code></pre>
       for (var i=0; i<noterefs.length; i++) {
         const ref = noterefs[i];
         tippyHover(ref, function() {
-          let href = ref.getAttribute('href');
+          // use id or data attribute instead here
+          let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
           try { href = new URL(href).hash; } catch {}
           const id = href.replace(/^#\/?/, "");
           const note = window.document.getElementById(id);
@@ -1716,6 +981,6 @@ Call collect() first to pull data into R.</code></pre>
       }
     });
     </script>
-
+    
 
 </body></html>
